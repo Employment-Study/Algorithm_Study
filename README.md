@@ -22,4 +22,4 @@
 
 [sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
 [LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
-[Suyong] : https://github.com/Employment-Study/Algorithm_Study/tree/Accept
+[SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
