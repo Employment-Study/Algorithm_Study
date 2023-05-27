@@ -19,7 +19,7 @@ public class Solution {
         String[] num = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
         
         for (int i = 0; i < num.length; i++) {
-        	numbers = numbers.replaceAll(numlist[i], num[i]);
+        	numbers = numbers.replace(numlist[i], num[i]);
         }
         answer = Long.parseLong(numbers);
         return answer;
