@@ -13,7 +13,7 @@
 |  01  | 이선로 |      자바      | [바로가기][sunro] |
 |  02  | 이병길 |     파이썬      | [바로가기][LeeBG] |
 |  03  | 정수용 |      자바      | [바로가기][SuYong] |
-|  04  |  |      자바      | . |
+|  04  | 임지훈 |      자바      | [바로가기][e1mji] |
 |  05  |  |      자바      | . |
 |  06  |  |      자바      | . |
 
@@ -23,3 +23,4 @@
 [sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
 [LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
 [SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
+[e1mji]: https://github.com/Employment-Study/Algorithm_Study/tree/e1mji
