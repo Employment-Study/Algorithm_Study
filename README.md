@@ -10,18 +10,18 @@
 
 | 번호 |  멤버  |  사용하시는 언어  |     바로가기      | 
 | :--: | :--------: | :-----------------: | :---------------: |
-|  01  | 이선로 |      자바      | [바로가기][sunro] |
-|  02  | 이병길 |     파이썬      | [바로가기][LeeBG] |
+|  01  | 안지혜 |      자바      | [바로가기][AhnJiHye] |
+|  02  | 이선로 |      자바      | [바로가기][sunro] |
 |  03  | 정수용 |      자바      | [바로가기][SuYong] |
 |  04  | 임지훈 |      자바      | [바로가기][e1mji] |
 |  05  | 박소은 |      자바      | [바로가기][Soeun] |
-|  06  | 안지혜 |      자바      | [비로가기][AhnJiHye] |
+|  06  | 이병길 |      파이썬      | [비로가기][LeeBG] |
 |      |       |      자바      |                     |
 
 
 
 
-[sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
+[sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro
 [LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
 [SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
 [e1mji]: https://github.com/Employment-Study/Algorithm_Study/tree/e1mji
