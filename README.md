@@ -15,7 +15,8 @@
 |  03  | 정수용 |      자바      | [바로가기][SuYong] |
 |  04  | 임지훈 |      자바      | [바로가기][e1mji] |
 |  05  | 박소은 |      자바      | [바로가기][Soeun] |
-|  06  |  |      자바      | . |
+|  06  | 안지혜 |      자바      | [비로가기][AhnJiHye] |
+|      |       |      자바      |                     |
 
 
 
@@ -25,3 +26,4 @@
 [SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
 [e1mji]: https://github.com/Employment-Study/Algorithm_Study/tree/e1mji
 [Soeun]: https://github.com/Employment-Study/Algorithm_Study/tree/Soeun
+[AhnJiHye]: https://github.com/Employment-Study/Algorithm_Study/tree/AhnJiHye
