@@ -12,11 +12,20 @@
 - 코드업 : [파이썬 기초 100제](https://codeup.kr/problemsetsol.php?psid=33)
 
 ## 학습 목표
-- 알고리즘 고수되기
+- 알고리즘 실력 향상
+- 문제 해결 능력 상승
+- 다양한 자료구조 사용 학습
 
-## 팀 문제풀이 숙제
-- 팀 알고리즘 문제풀이 : [바로가기][test]
+<br/>
 
+# 스터디 내용
+
+## 스터디 그룹
+- ### [주간 팀 알고리즘 문제풀이][test]
+
+<br/>
+
+## 개인
 
 ### 주요 알고리즘 이론과 실전 문제
 * [파이썬 기초200제](https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG/pythonProject1/codeup200)
