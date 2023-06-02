@@ -12,6 +12,11 @@
 - 코드업 : [파이썬 기초 100제](https://codeup.kr/problemsetsol.php?psid=33)
 
 ## 학습 목표
+- 알고리즘 고수되기
+
+## 팀 문제풀이 숙제
+- 팀 알고리즘 문제풀이 : [바로가기][test]
+
 
 ### 주요 알고리즘 이론과 실전 문제
 * [파이썬 기초200제](https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG/pythonProject1/codeup200)
@@ -33,3 +38,5 @@
 * 다이나믹 프로그래밍
 * 최단 경로
 * 그래프 이론
+
+[test]: ./pythonProject1/groupstudy
