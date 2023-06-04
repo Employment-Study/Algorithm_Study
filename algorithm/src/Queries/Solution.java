@@ -1,7 +1,6 @@
-package algorithm;
+package Queries;
 
-public class Queries {
-	
+class Solution {
 	static int[] solution(int[] arr, int[][] queries) {
 		/*
 		 * 수열과 구간 쿼리 4
