@@ -3,7 +3,7 @@
 ## 레포지토리 작성법
 - <h3>각자 만든 브랜치에 본인 폴더 만들어서 자유롭게 커밋</h3>
 
-<<<<<<< HEAD
+
 ---
 
 ## 브랜치 바로가기
@@ -23,7 +23,7 @@
 [sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
 [LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
 [SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
-=======
+
 //ListIterator
 
 내가 보려고 쓴 메모 : Iterator에서 remove메서드를 사용하려면 UnsupprtedOperationException을 throws로 명시해줘야 한다. 
@@ -53,4 +53,10 @@ HashSet을 통해 중복을 제거한 리스트들 간의 교집합, 차집합, 
 이진검색 트리는 검색과 정렬에 유리하다. 하지만 노드의 추가와 삭제에 시간이 걸린다.( 추가와 삭제는 링크드리스트가 더 빠름)
 Set을 사용하기 때문에 중복x, 레드블랙 트리를 사용
 왼쪽 자식노드 > 부모노드 > 오른쪽 자식 노드 순으로 검색시 오름차순 가능
->>>>>>> e8f474450dd7721948cac9bc47c2407158feb914
+
+
+
+2023.06.04
+
+배운 메서드 :  copyOfRange(arraay, start, end(not inclusive end))
+배운 문제풀이 :  n번째 위치의 문자열을 기준으로 정렬을 하고 싶으면 n번째 문자를 가장 앞으로 가져와서 정렬하면 된다.
