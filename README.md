@@ -2,27 +2,76 @@
 
 ---
 
-## 브랜치 바로가기
+## 문제 바로가기
 
-| 번호 |  문제명 |  레벨  |     문제 바로가기      | 깃허브 바로가기 |
-| :--: | :--------: | :-----------------: |         | :---------------: |
-|  01  |잘라서 배열로 저장하기  | lv00 | [바로가기][01] | [바로가기][011]
-|  02  |수열과 구간 쿼리4  | lv00 | [바로가기][02] | [바로가기][022]
-|  03  |조건에 맞게 수열 변환하기2   |lv00 | [바로가기][03] |
-|  04  | 영어가 싫어요 |lv00  | [바로가기][04] |
-|  05  | 배열의 길이를 2의 거듭제곱으로 만들기 |lv00  | [바로가기][05] |
-
-
-
-
+| 번호 |      문제명      | 레벨  |     문제 바로가기     |   깃허브 바로가기   |
+| :--: | :--------------: | :---: | :------------------: | :----------------: |
+|  01  | 잘라서 배열로 저장하기 | lv00  | [바로가기][01] | [바로가기][011] |
+|  02  | 수열과 구간 쿼리4 | lv00  | [바로가기][02] | [바로가기][022] |
+|  03  | 조건에 맞게 수열 변환하기2  | lv00  | [바로가기][03] |[바로가기][033]  |
+|  04  | 영어가 싫어요    | lv00  | [바로가기][04] | 바로가기[044] |
+|  05  | 배열의 길이를 2의 거듭제곱으로 만들기 | lv00  | [바로가기][05] |바로가기[055]  |
+|  06  | 문자열 계산하기 | lv00  | [바로가기][06] | [바로가기][066] |
+|  07  | 행렬의 덧셈 | lv01  | [바로가기][07] | [바로가기][077] |
+|  08  | 예산 | lv01  | [바로가기][08] | [바로가기][088] |
+|  09  | k번째 수 | lv01  | [바로가기][09] | [바로가기][099] |
+|  10  | 문자열 내 마음대로 정렬하기 | lv01  | [바로가기][10] | [바로가기][1010] |
+|  11  | 최소직사각형 | lv01  | [바로가기][11] | [바로가기][1111] |
+|  12  | 3진법 뒤집기 | lv01  | [바로가기][12] | [바로가기][1212] |
+|  13  | 비밀지도 | lv01  | [바로가기][13] | [바로가기][1313] |
+|  14  | 시저 암호 | lv01  | [바로가기][14] | [바로가기][1414] |
+|  15  | 사각형별만들기 | lv01  | [바로가기][15] | [바로가기][1515] |
+|  16  | 이상한 문자 만들기 | lv01  | [바로가기][16] | [바로가기][1616] |
+|  17  | 문자열 다루기 기본 | lv01  | [바로가기][17] | [바로가기][1717] |
+|  18  | 삼총사 | lv01  | [바로가기][18] | [바로가기][1818] |
+|  19  | 두개 뽑앙서 더하기 | lv01  | [바로가기][19] | [바로가기][1919] |
+|  20  | 부족한 금액 | lv01  | [바로가기][20] | [바로가기][2020] |
+|  21  | 크기가 작은 부분문자열 | lv01  | [바로가기][21] | [바로가기][2121] |
 
 [01]: https://school.programmers.co.kr/learn/courses/30/lessons/120913
-[011]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/MulitpleArray.java
+[011]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/MulitpleArray.java
 [02]: https://school.programmers.co.kr/learn/courses/30/lessons/181922
-[022]:
+[022]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/query4.java
 [03]: https://school.programmers.co.kr/learn/courses/30/lessons/181881
+[033]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/ChangeArray.java
 [04]: https://school.programmers.co.kr/learn/courses/30/lessons/120894
+[044]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/HateEnglish.java
 [05]: https://school.programmers.co.kr/learn/courses/30/lessons/181857
+[055]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/MulitpleArray.java
+[06]: https://school.programmers.co.kr/learn/courses/30/lessons/120902
+[066]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/Calc_String.java
+[07]: https://school.programmers.co.kr/learn/courses/30/lessons/12950
+[077]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/Array_add_problem.java
+[08]: https://school.programmers.co.kr/learn/courses/30/lessons/12982
+[088]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/Budget.java
+[09]: https://school.programmers.co.kr/learn/courses/30/lessons/42748
+[099]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/Index_K.java
+[10]: https://school.programmers.co.kr/learn/courses/30/lessons/12915
+[1010]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/ChangStringMyself.java
+[11]: https://school.programmers.co.kr/learn/courses/30/lessons/86491
+[1111]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/MinimalSquare.java
+[12]:https://school.programmers.co.kr/learn/courses/30/lessons/68935
+[1212]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/ThreeToTen.java
+[13]: https://school.programmers.co.kr/learn/courses/30/lessons/17681
+[1313]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/SecretMap.java
+[14]: https://school.programmers.co.kr/learn/courses/30/lessons/12926
+[1414]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/SeizurePassword.java
+[15]:https://school.programmers.co.kr/learn/courses/30/lessons/12969
+[1515]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/Square_MakeStar.java
+[16]: https://school.programmers.co.kr/learn/courses/30/lessons/12930
+[1616]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/StrangeString.java
+[17]: https://school.programmers.co.kr/learn/courses/30/lessons/12918
+[1717]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/StringProblem.java
+[18]: https://school.programmers.co.kr/learn/courses/30/lessons/131705
+[1818]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/Threeteam.java
+[19]: https://school.programmers.co.kr/learn/courses/30/lessons/68644
+[1919]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/choiceTwoNumberInArray.java
+[20]: https://school.programmers.co.kr/learn/courses/30/lessons/82612
+[2020]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/insufficeint_price.java
+[21]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/lessSizePartString.java
+[2121]:https://school.programmers.co.kr/learn/courses/30/lessons/147355
+
+
 
 
 //ListIterator
