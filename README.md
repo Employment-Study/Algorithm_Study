@@ -9,8 +9,8 @@
 |  01  | 잘라서 배열로 저장하기 | lv00  | [바로가기][01] | [바로가기][011] |
 |  02  | 수열과 구간 쿼리4 | lv00  | [바로가기][02] | [바로가기][022] |
 |  03  | 조건에 맞게 수열 변환하기2  | lv00  | [바로가기][03] |[바로가기][033]  |
-|  04  | 영어가 싫어요    | lv00  | [바로가기][04] | 바로가기[044] |
-|  05  | 배열의 길이를 2의 거듭제곱으로 만들기 | lv00  | [바로가기][05] |바로가기[055]  |
+|  04  | 영어가 싫어요    | lv00  | [바로가기][04] | [바로가기][044] |
+|  05  | 배열의 길이를 2의 거듭제곱으로 만들기 | lv00  | [바로가기][05] |[바로가기][055]  |
 |  06  | 문자열 계산하기 | lv00  | [바로가기][06] | [바로가기][066] |
 |  07  | 행렬의 덧셈 | lv01  | [바로가기][07] | [바로가기][077] |
 |  08  | 예산 | lv01  | [바로가기][08] | [바로가기][088] |
@@ -26,7 +26,9 @@
 |  18  | 삼총사 | lv01  | [바로가기][18] | [바로가기][1818] |
 |  19  | 두개 뽑앙서 더하기 | lv01  | [바로가기][19] | [바로가기][1919] |
 |  20  | 부족한 금액 | lv01  | [바로가기][20] | [바로가기][2020] |
-|  21  | 크기가 작은 부분문자열 | lv01  | [바로가기][21] | [바로가기][2121] |
+|  21  | 커피 심부름 | lv00  | [바로가기][21] | [바로가기][2121] |
+|  22  | 푸드 파이트 | lv01  | [바로가기][22] | [바로가기][2222] |
+
 
 [01]: https://school.programmers.co.kr/learn/courses/30/lessons/120913
 [011]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/MulitpleArray.java
@@ -68,8 +70,10 @@
 [1919]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/choiceTwoNumberInArray.java
 [20]: https://school.programmers.co.kr/learn/courses/30/lessons/82612
 [2020]: https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/insufficeint_price.java
-[21]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/lessSizePartString.java
-[2121]:https://school.programmers.co.kr/learn/courses/30/lessons/147355
+[21]:https://school.programmers.co.kr/learn/courses/30/lessons/181837
+[2121]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level00/coffeeErrand.java
+[22]:https://school.programmers.co.kr/learn/courses/30/lessons/134240
+[2222]:https://github.com/Employment-Study/Algorithm_Study/blob/Sunro/level01/FoodFight.java
 
 
 
