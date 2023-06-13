@@ -35,7 +35,7 @@ public class BubbleSort2 {
 			int change =0;
 			for(int j =n-1; j>i;j--)	//검색은 배열의 뒤부터 차례대로 교체
 				if(a[j-1] > a[j]) {
-					swap(a, j-1, j);	//a[j]보다 a[j-1]이 더 작으면 스왑
+					swap(a, j-1, j);	//a[j-1]보다 a[j]가 더 작으면 스왑
 					change +=1;
 				}
 			if(change == 0) break; 
