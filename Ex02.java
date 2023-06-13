@@ -1,40 +1,32 @@
-package day06;
+package day07;
 
 public class Ex02 {
-	/*
-	 * 차 / 뜨 상관없이 
-		아메리카노 4500
-		카페라떼 5000
-		
-		팀원 마실 메뉴 : 
-		if "카페라테"  = 차가운 카페라떼
-		if "아무거나"  = 차가운 아메리카노
-		
-		결제하게 될 금액 return  int total = 
-	 */
 	
-	public int solution(String[] order) {
-		int americanoPrice = 4500;
-		int cafelattePrice = 5000; 
-        int total = 0;
-
-        for(int i =0; i < order.length; i++) {
-            String menu = order[i];
-        	if (menu != null && menu.equals("anything")) {
-        		total += americanoPrice;
-        	}
-        	else if (menu!= null && menu.contains("americano")) {
-        		total +=americanoPrice;
-        	}
-        	else if (menu != null && menu.contains("cafelatte")) {
-        		total += cafelattePrice;
-        	}
-        }	
+    static int solution(int balls, int share) {
+    	//만약 머쓱이가 가지고있는 구슬이 친구한테 나눠줄 구슬보다 적다면 0
+        if (balls < share) return 0;
         
-        return total;
+        int son = 1;	 //분자	
+        int mom = 1;	//분모
+        
+        // 머쓱이가 5개를 가지고 있고 친구한테 3개 나누어준다고 가정하면 분자는 5x4x3
+        for(int i=balls; i>balls-share; i--) {
+        	son *=i;
+        }
+        // 분모는 3x2x1
+        for (int i = share; i>1; i--) {
+        	mom *=i;
+        }
+        // 60 / 6	
+        int answer = son/mom;
+        
+        return answer ;
     }
-	
 	public static void main(String[] args) {
+		int balls = 5;
+		int share = 3;
+		int answer = solution(balls, share);
+		System.out.println(answer);
 		
 	}
 
