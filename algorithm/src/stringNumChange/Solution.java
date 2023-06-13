@@ -20,7 +20,6 @@ class Solution {
         
         for (int i = 0; i < num.length; i++) {
         	numbers = numbers.replace(numlist[i], num[i]);
-        	System.out.println(numbers);
         }
         answer = Long.parseLong(numbers);
         return answer;
