@@ -15,9 +15,9 @@
 |  03  | 정수용 |      자바      | [바로가기][SuYong] |
 |  04  | 임지훈 |      자바      | [바로가기][e1mji] |
 |  05  | 박소은 |      자바      | [바로가기][Soeun] |
-|  06  | 이병길 |      파이썬      | [비로가기][LeeBG] |
-|      |       |      자바      |                     |
-
+|  06  | 이병길 |      파이썬    | [비로가기][LeeBG] |
+|  07  | 조민병 |      자바      | [바로가기][JMB]   |
+|  08  | . |      자바      |   .   |
 
 
 
@@ -27,3 +27,4 @@
 [e1mji]: https://github.com/Employment-Study/Algorithm_Study/tree/e1mji
 [Soeun]: https://github.com/Employment-Study/Algorithm_Study/tree/Soeun
 [AhnJiHye]: https://github.com/Employment-Study/Algorithm_Study/tree/AhnJiHye
+[JMB]: https://github.com/Employment-Study/Algorithm_Study/tree/JMB
