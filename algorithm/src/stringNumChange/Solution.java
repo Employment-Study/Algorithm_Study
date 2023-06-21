@@ -15,12 +15,16 @@ class Solution {
 		 * "zero"는 numbers의 맨 앞에 올 수 없습니다.
 		 */
         long answer = 0;
+        // 영어에 해당하는 배열과 숫자에 해당하는 배열을 각각 생성
         String[] numlist = { "zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine" };
         String[] num = { "0", "1", "2", "3", "4", "5", "6", "7", "8", "9"};
         
+        // 배열의 길이만큼 반복하고
         for (int i = 0; i < num.length; i++) {
+        	// 매개변수 numbers에 numlist[i]에 해당하는 단어가 있다면, num[i]로 치환
         	numbers = numbers.replace(numlist[i], num[i]);
         }
+        // numbers는 문자열이므로, parseLong을 사용하여 정수로 변환하여 answer에 대입
         answer = Long.parseLong(numbers);
         return answer;
     }

@@ -8,9 +8,14 @@ class Solution {
     	 * 
     	 * 입출력 예
     	 * q : 3, r : 1, code : "qjnwezgrpirldywt" result : "jerry"
-    	 * q : 1, r : 0, cpde : "programmers" result : "programmers"
+    	 * q : 1, r : 0, code : "programmers" result : "programmers"
     	 */
-        String answer = "";
-        return answer;
-    }
+    	String answer = "";
+		for(int i = 0; i < code.length(); i++) {
+			if(i % q == r) {
+				answer += code.charAt(i);
+			}
+		}
+		return answer;
+	}
 }
