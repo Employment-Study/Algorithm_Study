@@ -1,25 +1,20 @@
-# Algorithm_Study
-## 알고리즘 공부 하실분들은 여기에 (언어 상관없음)
-
 ## 백준허브로 생성한 레포지토리 연결 확인
-- <h3>각자 만든 브랜치에 본인 폴더 만들어서 자유롭게 커밋</h3>
+- <h3>해당 레포지토리에는 혼자서 문제 풀다가 "이 문제 좀 어려운데?"싶은 문제만 노션 정리와 함께 올라옵니다</h3>
 
 ---
 
 ## 브랜치 바로가기
 
-| 번호 |  멤버  |  사용하시는 언어  |     바로가기      | 
+| 번호 |  레포지토리  |  용도  |     바로가기      | 
 | :--: | :--------: | :-----------------: | :---------------: |
-|  01  | 이선로 |      자바      | [바로가기][sunro] |
-|  02  | 이병길 |     파이썬      | [바로가기][LeeBG] |
-|  03  | 정수용 |      자바      | [바로가기][SuYong] |
-|  04  |  |      자바      | . |
-|  05  |  |      자바      | . |
-|  06  |  |      자바      | . |
+|  01  | 스터리 알고리즘 문제 |      스터디에서 푼 알고리즘 문제      | [바로가기][Team] |
+|  02  | 백준 레포지토리 |     혼자서 푼 프로그래머스 문제      | [바로가기][Programmers] |
+|  03  | 노션 | 스터디에서 푼 알고리즘 문제와 어려운 문제 정리 | [바로가기][Notion] |
 
 
 
 
-[sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
-[LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
-[SuYong]: https://github.com/RightAccept/Programmers.git
+
+[Team]: https://github.com/Employment-Study/Algorithm_Study.git
+[Programmers]: https://github.com/RightAccept/Programmers.git
+[Notion] : https://www.notion.so/e393e8bd0e5943f9b9e844349eba0749?v=90b0d9342fc9410385ae0384464ed509&pvs=4
