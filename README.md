@@ -1,7 +1,7 @@
 # Algorithm_Study
 ## 알고리즘 공부 하실분들은 여기에 (언어 상관없음)
 
-## 레포지토리 작성법
+## 백준허브로 생성한 레포지토리 연결 확인
 - <h3>각자 만든 브랜치에 본인 폴더 만들어서 자유롭게 커밋</h3>
 
 ---
@@ -22,4 +22,4 @@
 
 [sunro]: https://github.com/Employment-Study/Algorithm_Study/tree/Sunro_Algo
 [LeeBG]: https://github.com/Employment-Study/Algorithm_Study/tree/LeeBG
-[SuYong]: https://github.com/Employment-Study/Algorithm_Study/tree/Accept
+[SuYong]: https://github.com/RightAccept/Programmers.git
