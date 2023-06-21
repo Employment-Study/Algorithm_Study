@@ -17,4 +17,4 @@
 
 [Team]: https://github.com/Employment-Study/Algorithm_Study.git
 [Programmers]: https://github.com/RightAccept/Programmers.git
-[Notion] : https://www.notion.so/e393e8bd0e5943f9b9e844349eba0749?v=90b0d9342fc9410385ae0384464ed509&pvs=4
+[Notion]: https://www.notion.so/e393e8bd0e5943f9b9e844349eba0749?v=90b0d9342fc9410385ae0384464ed509&pvs=4
