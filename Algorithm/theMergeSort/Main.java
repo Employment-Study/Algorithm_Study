@@ -1,87 +1,70 @@
 package theMergeSort;
 
-public class Main {
-	private static int[] sorted;
-	
-	public static void merge_sort(int[] a) {
+import java.io.BufferedReader;
+import java.io.BufferedWriter;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.io.OutputStreamWriter;
+import java.util.Arrays;
+
+class Main{
+    public static int N;
+    public static int[] tmp, A;
+    public static void main(String[] args) throws NumberFormatException, IOException {
+		BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+		BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 		
-		sorted = new int[a.length];
-		merge_sort(a,0,a.length-1);
-		sorted = null;
-	}//merge_sort
-	public static void merge_sort(int[]a , int left, int right) {
+		N = Integer.parseInt(br.readLine());
+		A = new int[N+1];
+		tmp = new int[N+1];
 		
-		
-		
-		//1 ...2 ... 4... 8... 으로 나누는 기준을 두배로 늘린다.
-		for(int size=1; size <= right ; size += size){
-			/*
-			 * 두 부분 리스트를 순서대로 병합한다.
-			 * 예를 들어 현재 부분리스트의 크기가 1(size=1)일 때
-			 * 왼쪽 부분리스트(low~mid) 와 오른쪽 부분리스트 (mid +1 ~high)를 생각하면
-			 * 왼쪽 부분 리스트는 low = mid = 0;
-			 * 오른쪽 부분 리스트는 mid+1부터 low+(2*size)-1이다.
-			 * 
-			 * 이때 high가 배열의 인덱스를 넘어갈 수 있으므로 right와 둘 중 작은 값이 병합되도록 해야 한다.
-			 */
-			
-			for(int l=0; l<=right-size;l+=(2*size)) {
-				int low =l;
-				int mid = l + size -1;
-				int high  = Math.min(l+(2*size)-1,right);
-				merge(a,low,mid,high);	//병합
-			}
+		for(int i=1; i<=N;i++) {
+			A[i] = Integer.parseInt(br.readLine());
 		}
-		
-	}//merge_sort
-		public static void merge(int[] a, int left , int mid, int right) {
-			int l = left;
-			int r = mid+1;
-			int idx = left;
-			
-			while(l<=mid && r <= right) {
-				/*
-				 * 왼쪽 부분리스트 1번째 원소가 오른쪽 부분리스트 r번째 원소보다 작거나 같을 경우
-				 * 왼쪽의 1번쨰 원소를 새 배열에 넣고 1과 idx를 1 증가시킨다.
-				 */
-				if(a[l]<=a[r]) {
-					sorted[idx]=a[l];
-					idx++;
-					l++;
-				}
-				else {
-					sorted[idx]=a[r];
-					idx++;
-					r++;
-				}
-			}
-			
-			if(l>mid) {
-				while(r<=right) {
-					sorted[idx]=a[r];
-					idx++;
-					r++;
-				}
-			}
-			else {
-				while(l<=mid) {
-					sorted[idx]=a[l];
-					idx++;
-					l++;
-				}
-			}
-			
-			for(int i=left; i<=right; i++) {
-				a[i] = sorted[i];
-			}
-			
-			
-			
-			
+		merge_sort(1,N);
+		for(int i=1;i<=N;i++) {
+			bw.write(A[i]+"\n");
 		}
+		System.out.println(Arrays.toString(A));
+		bw.flush();
+		bw.close();
 		
-		
-		
-		
-		
+		}
+    
+    public static void merge_sort(int s, int e) {
+    	if(e-s<1) {return;}
+    	int m = s+(e-s)/2;
+    	
+    	merge_sort(s,m);
+    	merge_sort(m+1,e);
+    	for(int i = s; i <=e ; i++) {
+    		tmp[i]=A[i];
+    	}
+    	int k =s;
+    	int index1 = s;
+    	int index2 = m+1;
+    	while(index1 <=m && index2 <=e) {
+    		
+    		if(tmp[index1] > tmp[index2]) {
+    			A[k] = tmp[index2];
+    			k++;
+    			index2++;
+    		}else {
+    			A[k] = tmp[index1];
+    			k++;
+    			index1++;
+    		}
+    	}
+    	while(index1<=m) {
+    		A[k] = tmp[index1];
+    		k++;
+    		index1++;
+    	}
+    	while(index2<=e) {
+    		A[k] = tmp[index2];
+    		k++;
+    		index2++;
+    	}
+    }
+    
 }
